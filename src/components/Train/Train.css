@@ -1,0 +1,35 @@
+.train {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+}
+
+.train::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 50%;
+  left: 50%;
+  border-radius: 6px;
+  transform: translate(-50%, -50%);
+  background: #7fb480;
+}
+
+.train::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #4a5a50;
+}
+
+.train-head {
+  width: 32px;
+  height: 32px;
+  background: url("../../assets/train.svg") center / contain no-repeat;
+}

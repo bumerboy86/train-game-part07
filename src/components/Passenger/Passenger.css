@@ -1,0 +1,6 @@
+.passenger {
+  width: 32px;
+  height: 32px;
+  background: url("../../assets/person.svg") center / cover no-repeat;
+  position: absolute;
+}

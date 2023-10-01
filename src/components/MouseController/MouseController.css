@@ -1,0 +1,16 @@
+.controller {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.controller div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.controller div:nth-child(2) {
+  flex-direction: column;
+}

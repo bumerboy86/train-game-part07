@@ -1,0 +1,73 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startBoard {
+  min-width: 320px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: url("./assets//board-bg.jpg") center / cover no-repeat;
+}
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  min-width: 320px;
+  min-height: 320px;
+  background: white;
+  position: relative;
+}
+
+.item {
+  width: 32px;
+  height: 32px;
+  background: white;
+  border: 1px solid rgb(175, 175, 175);
+  box-sizing: border-box;
+}
+
+h1 {
+  text-shadow: 2px 2px 2px #079306;
+}
+
+.gameOverBoard {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: rgba(128, 128, 128, 60%);
+}
+
+.game section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game section p {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #079306;
+}
+
+button {
+  padding: 5px 15px;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+}
+
+button:active {
+  border: 1px solid green;
+  color: green;
+}
